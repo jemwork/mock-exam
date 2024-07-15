@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://my-json-server.typicode.com/jemwork/mock-exam/users') // Example API endpoint
+  // GET USER API
+    fetch('https://my-json-server.typicode.com/jemwork/mock-exam/users')
       .then(response => response.json())
       .then(users => {
         const userList = document.getElementById('userList');
@@ -19,7 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       })
       .catch(error => console.error('Error fetching users:', error));
-  
+      
+    // FILTER FUNCTION
     const searchInput = document.getElementById('searchInput');
     searchInput.addEventListener('input', function() {
       const searchTerm = searchInput.value.toLowerCase();
