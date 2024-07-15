@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     // Function to fetch and display user profiles
     function fetchUsers() {
-      fetch('users.json')
+      fetch('https://my-json-server.typicode.com/jemwork/mock-exam/users')
         .then(response => response.json())
         .then(data => {
           userList.innerHTML = ''; // Clear previous list
