@@ -1,37 +1,279 @@
 {
-    "users" : [
-        {
-            "id": 1,
-            "name": "John Doe",
-            "email": "john.doe@example.com",
-            "address": {
-              "street": "123 Main St",
-              "city": "Anytown"
-            },
-            "jobPosition": "Software Developer",
-            "profilePicture": "https://www.flaticon.com/free-icon/woman_4829575"
-        },
-        {
-            "id": 1,
-            "name": "John Doe",
-            "email": "john.doe@example.com",
-            "address": {
-              "street": "123 Main St",
-              "city": "Anytown"
-            },
-            "jobPosition": "Software Developer",
-            "profilePicture": "https://picsum.photos/640"
-        },
-        {
-            "id": 1,
-            "name": "John Doe",
-            "email": "john.doe@example.com",
-            "address": {
-              "street": "123 Main St",
-              "city": "Anytown"
-            },
-            "jobPosition": "Software Developer",
-            "profilePicture": "https://picsum.photos/640"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "address": {
+        "street": "123 Oak Street",
+        "city": "Springfield"
+      },
+      "jobPosition": "Marketing Manager",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "address": {
+        "street": "456 Elm Avenue",
+        "city": "Smalltown"
+      },
+      "jobPosition": "Software Developer",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Carol Brown",
+      "email": "carol.brown@example.com",
+      "address": {
+        "street": "789 Maple Drive",
+        "city": "Metropolis"
+      },
+      "jobPosition": "Data Analyst",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "David Wilson",
+      "email": "david.wilson@example.com",
+      "address": {
+        "street": "101 Pine Lane",
+        "city": "Harbor City"
+      },
+      "jobPosition": "Project Manager",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Ella Davis",
+      "email": "ella.davis@example.com",
+      "address": {
+        "street": "234 Cedar Road",
+        "city": "Riverdale"
+      },
+      "jobPosition": "HR Specialist",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Frank Martinez",
+      "email": "frank.martinez@example.com",
+      "address": {
+        "street": "567 Birch Street",
+        "city": "Oceanview"
+      },
+      "jobPosition": "Financial Analyst",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Grace Thompson",
+      "email": "grace.thompson@example.com",
+      "address": {
+        "street": "890 Walnut Boulevard",
+        "city": "Mountain City"
+      },
+      "jobPosition": "Sales Representative",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Henry Rodriguez",
+      "email": "henry.rodriguez@example.com",
+      "address": {
+        "street": "111 Pinecrest Avenue",
+        "city": "Lakeview"
+      },
+      "jobPosition": "Graphic Designer",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Ivy Campbell",
+      "email": "ivy.campbell@example.com",
+      "address": {
+        "street": "222 Magnolia Court",
+        "city": "Pineville"
+      },
+      "jobPosition": "Customer Service Manager",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Jack Murphy",
+      "email": "jack.murphy@example.com",
+      "address": {
+        "street": "333 Willow Lane",
+        "city": "Greenfield"
+      },
+      "jobPosition": "Operations Director",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Katie Young",
+      "email": "katie.young@example.com",
+      "address": {
+        "street": "444 Oakwood Street",
+        "city": "Sunset Valley"
+      },
+      "jobPosition": "IT Specialist",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Leo Turner",
+      "email": "leo.turner@example.com",
+      "address": {
+        "street": "555 Cedar Drive",
+        "city": "Hillcrest"
+      },
+      "jobPosition": "Research Scientist",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Mia Garcia",
+      "email": "mia.garcia@example.com",
+      "address": {
+        "street": "666 Elm Avenue",
+        "city": "Greenville"
+      },
+      "jobPosition": "Product Manager",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Noah Lopez",
+      "email": "noah.lopez@example.com",
+      "address": {
+        "street": "777 Maple Road",
+        "city": "Oakwood"
+      },
+      "jobPosition": "Systems Engineer",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Olivia Martinez",
+      "email": "olivia.martinez@example.com",
+      "address": {
+        "street": "888 Pinecrest Drive",
+        "city": "Riverside"
+      },
+      "jobPosition": "UX Designer",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Peter Scott",
+      "email": "peter.scott@example.com",
+      "address": {
+        "street": "999 Birch Avenue",
+        "city": "Lakeside"
+      },
+      "jobPosition": "Accountant",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Quinn Allen",
+      "email": "quinn.allen@example.com",
+      "address": {
+        "street": "121 Oakwood Court",
+        "city": "Springfield"
+      },
+      "jobPosition": "Business Analyst",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Rachel Hall",
+      "email": "rachel.hall@example.com",
+      "address": {
+        "street": "232 Cedar Lane",
+        "city": "Smalltown"
+      },
+      "jobPosition": "Project Coordinator",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Samuel Carter",
+      "email": "samuel.carter@example.com",
+      "address": {
+        "street": "343 Elm Street",
+        "city": "Metropolis"
+      },
+      "jobPosition": "Technical Writer",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Tina Adams",
+      "email": "tina.adams@example.com",
+      "address": {
+        "street": "454 Maple Drive",
+        "city": "Harbor City"
+      },
+      "jobPosition": "Marketing Coordinator",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Victor Rivera",
+      "email": "victor.rivera@example.com",
+      "address": {
+        "street": "565 Pine Road",
+        "city": "Riverdale"
+      },
+      "jobPosition": "Software Engineer",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Wendy King",
+      "email": "wendy.king@example.com",
+      "address": {
+        "street": "676 Cedar Avenue",
+        "city": "Oceanview"
+      },
+      "jobPosition": "Data Scientist",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Xavier Foster",
+      "email": "xavier.foster@example.com",
+      "address": {
+        "street": "787 Birch Lane",
+        "city": "Mountain City"
+      },
+      "jobPosition": "UX Researcher",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Yvonne Moore",
+      "email": "yvonne.moore@example.com",
+      "address": {
+        "street": "898 Walnut Drive",
+        "city": "Lakeview"
+      },
+      "jobPosition": "Financial Advisor",
+      "profilePicture": "https://picsum.photos/200"
+    },
+    {
+      "id": 1,
+      "name": "Zoe Baker",
+      "email": "zoe.baker@example.com",
+      "address": {
+        "street": "909 Magnolia Road",
+        "city": "Pineville"
+      },
+      "jobPosition": "Sales Manager",
+      "profilePicture": "https://picsum.photos/200"
+    }
+  ]
 }
